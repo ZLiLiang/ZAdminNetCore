@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JinianNet.JNTemplate" Version="2.3.3" />
+    <PackageReference Include="SqlSugarCoreNoDrive" Version="5.1.4.93" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+    <ProjectReference Include="..\Z.Common\Z.Common.csproj" />
+    <ProjectReference Include="..\Z.Model\Z.Model.csproj" />
+  </ItemGroup>
+
+</Project>
